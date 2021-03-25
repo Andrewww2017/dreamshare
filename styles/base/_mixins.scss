@@ -1,0 +1,12 @@
+@mixin flexbox($jc, $ac, $fw) {
+    display: flex;
+    justify-content: $jc;
+    align-content: $ac;
+    flex-wrap: $fw;
+}
+@mixin text($ff,$fs,$lh,$c){
+    font-family:$ff;
+    font-size:$fs;
+    line-height:$lh;
+    color:$c;
+}
